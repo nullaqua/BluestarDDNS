@@ -10,7 +10,6 @@
   首先需要获取阿里云AccessKey
   
   获取方法:
-  
         ![image](https://user-images.githubusercontent.com/90564167/148645519-e2647818-ca5e-413d-9db9-f80cd52f0594.png)
         
         将鼠标放到右上角账号头像上,点 AccessKey管理 进去之后按提示获取一个AccessKeyID 以及AccessKeySecret
