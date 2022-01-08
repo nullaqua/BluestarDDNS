@@ -10,9 +10,10 @@
   首先需要获取阿里云AccessKey
   
   获取方法:
-        ![image](https://user-images.githubusercontent.com/90564167/148645519-e2647818-ca5e-413d-9db9-f80cd52f0594.png)
+  
+   ![image](https://user-images.githubusercontent.com/90564167/148645519-e2647818-ca5e-413d-9db9-f80cd52f0594.png)
         
-        将鼠标放到右上角账号头像上,点 AccessKey管理 进去之后按提示获取一个AccessKeyID 以及AccessKeySecret
+   将鼠标放到右上角账号头像上,点 AccessKey管理 进去之后按提示获取一个AccessKeyID 以及AccessKeySecret
         
   确认服务器已加载插件后,使用 /dns set 设置相关配置,即可使用.设置方法使用方法可通过 /dns help 查询
   
