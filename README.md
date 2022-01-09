@@ -5,7 +5,7 @@
 
   下载最新的.jar文件,放进plugins文件夹(支持spigot,paper及其衍生服务端)
   
-  1.18.X
+  1.18.X-1.8.X
   
   首先需要获取阿里云AccessKey
   
