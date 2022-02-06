@@ -1,0 +1,16 @@
+name: BluestarDDNS
+version: 1.0.3
+main: me.lanzhi.bluestarddns.main.BluestarDDNS
+api-version: 1.18
+commands:
+  dns:
+    description: 插件主指令
+    aliases:
+      - ddns
+      - bluestarddns
+      - bsddns
+    permission: bsddns.use
+permissions:
+  bsddns.use:
+    description: 使用插件的权限
+    default: op
