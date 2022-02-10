@@ -85,7 +85,7 @@ public class maincommand implements CommandExecutor, TabExecutor
                 config.reloadConfig();
                 return true;
             }
-            else if(args[1].equals("justPutLogWhenError"))
+            else if(args[1].equals("quiet"))
             {
                 boolean j;
                 try
@@ -167,10 +167,10 @@ public class maincommand implements CommandExecutor, TabExecutor
             tablist.add("rR");
             tablist.add("time");
             tablist.add("region");
-            tablist.add("justPutLogWhenError");
+            tablist.add("quiet");
             return tablist;
         }
-        else if(args.length==3&&sender.hasPermission("bsddns.use")&&args[1].equals("justPutLogWhenError"))
+        else if(args.length==3&&sender.hasPermission("bsddns.use")&&args[1].equals("quiet"))
         {
             List<String> tablist=new ArrayList<>();
             tablist.add("true");
