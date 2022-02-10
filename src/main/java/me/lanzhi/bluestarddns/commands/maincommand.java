@@ -97,7 +97,7 @@ public class maincommand implements CommandExecutor, TabExecutor
                     sender.sendMessage(MessageHead+ChatColor.RED+"错误!");
                     return false;
                 }
-                config.getConfig().set("justPutLogWhenError",j);
+                config.getConfig().set("quiet",j);
                 sender.sendMessage(MessageHead+ChatColor.GREEN+"设置成功!");
                 config.saveConfig();
                 config.reloadConfig();
