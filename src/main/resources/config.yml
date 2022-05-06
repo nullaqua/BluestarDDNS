@@ -5,4 +5,4 @@ name: ''
 rR: ''
 time: ''
 region: cn-beijing
-justPutLogWhenError: false
+quiet: false

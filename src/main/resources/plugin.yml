@@ -1,7 +1,9 @@
 name: BluestarDDNS
 version: 1.0.3
 main: me.lanzhi.bluestarddns.main.BluestarDDNS
-api-version: 1.8
+api-version: 1.13
+website: https://github.com/lanzhi6/BluestarDDNS
+author: lanzhi
 commands:
   dns:
     description: 插件主指令
