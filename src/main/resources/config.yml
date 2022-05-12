@@ -1,8 +1,25 @@
-#欢迎使用BSDDNS
-AccessKeySecret: ''
-AccessKeyID: ''
-name: ''
-rR: ''
-time: ''
-region: cn-beijing
-quiet: false
+#欢迎使用BluestarDDNS
+aliyun:
+  a:
+    AccessKeySecret: 'AccessKeySecret'
+    AccessKeyID: 'AccessKeyID'
+    name: 'XXX.com'
+    rR: '主机记录'
+    time: -1 #多长时间检测一次,小于等于0代表关闭
+    region: cn-beijing #地区,无需修改
+    quiet: false #静默
+  b: #命名随意
+    AccessKeySecret: 'AccessKeySecret'
+    AccessKeyID: 'AccessKeyID'
+    name: 'XXX.com'
+    rR: '主机记录'
+    time: -1 #多长时间检测一次,单位:秒,小于等于0代表关闭
+    region: cn-beijing #地区,无需修改
+    quiet: false #静默
+namecheap:
+  a: #多个解析的话与阿里云相同
+    rR: '主机记录'
+    name: 'XXX.com'
+    password: '密码'
+    time: -1 #多长时间进行一次解析,小于等于0代表关闭
+    quiet: false #静默

@@ -1,5 +1,5 @@
 name: BluestarDDNS
-version: 1.0.3
+version: '${project.version}'
 main: me.lanzhi.bluestarddns.main.BluestarDDNS
 api-version: 1.13
 website: https://github.com/lanzhi6/BluestarDDNS

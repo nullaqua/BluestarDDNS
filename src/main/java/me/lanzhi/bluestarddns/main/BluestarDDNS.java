@@ -9,7 +9,6 @@ import org.bukkit.scheduler.BukkitTask;
 public final class BluestarDDNS extends JavaPlugin
 {
     private DDNSManager ddnsManager;
-    private BukkitTask task;
 
     @Override
     public void onEnable()
@@ -20,15 +19,14 @@ public final class BluestarDDNS extends JavaPlugin
             getCommand("dns").setExecutor(new maincommand(this));
         }
         ddnsManager=new DDNSManager(this);
-        long time=getConfig().getLong("time");
-        task=ddnsManager.runTaskTimerAsynchronously(this,0,time==0?12000:time*20);
+        ddnsManager.start();
         System.out.println(ChatColor.AQUA+"动态dns已加载!");
     }
 
     @Override
     public void onDisable()
     {
-        task.cancel();
+        ddnsManager.stop();
         System.out.println(ChatColor.RED+"动态dns已卸载!");
     }
 
